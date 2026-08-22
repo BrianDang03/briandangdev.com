@@ -15,16 +15,18 @@
   justify-content: space-between;
 
   gap: 4rem;
-  padding: 0 2rem;
+  padding: 0 10rem;
 }
 
 .hero-text {
-  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .hero-image {
-  flex: 1;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -39,6 +41,10 @@
   .hero-content {
     flex-direction: column;
     text-align: center;
+  }
+
+  .hero-text {
+    align-items: center;
   }
 
   .hero-image {
